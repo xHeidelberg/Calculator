@@ -1,13 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <main>
+        <div class="calculatorBody">
+            <div id="display">
+                <!-- Display Append Child-->
+                <p>CALCULATOR</p>
+            </div>
+            <div class="mainGroup">
+                <div class="digitalGroup">
+                    <!-- One Group-->
+
+                    <div>
+                        <button id="btn" value="9">9</button>
+                        <button id="btn" value="8">8</button>
+                        <button id="btn" value="7">7</button>
+                    </div>
+                    <!-- Two Group-->
+                    <div>
+                        <button id="btn" value="6">6</button>
+                        <button id="btn" value="5">5</button>
+                        <button id="btn" value="4">4</button>
+                    </div>
+                    <!-- Three Group-->
+                    <div>
+                        <button id="btn" value="3">3</button>
+                        <button id="btn" value="2">2</button>
+                        <button id="btn" value="1">1</button>
+                    </div>
+                    <!-- Four Group-->
+                    <div>
+                        <button class="zeroBtn" id="btn" value=".">0</button>
+                        <button id="btn" value=".">.</button>
+                    </div>
+                    <button id="actionEquals">&equals;</button>
+                </div>
+                <div class="operatorGroup">
+                    <button id="actionClear">C</button>
+                    <button id="actionDivide">&divide;</button>
+                    <button id="actionTimes">&times;</button>
+                    <button id="actionMinus">&minus;</button>
+                    <button id="actionPlus">&plus;</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            Created by<a href="https://github.com/xHeidelberg" target="_blank">xHeidelberg</a>
+        </div>
+        <a href="https://github.com/xHeidelberg" target="_blank">
+            <i id="iconz" class="fa fa-github" aria-hidden="true"></i>
+        </a>
+    </footer>
     <script src="./script/script.js" defer></script>
 </body>
+
 </html>
