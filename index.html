@@ -14,42 +14,42 @@
         <div class="calculatorBody">
             <div id="display">
                 <!-- Display Append Child-->
-                <p>CALCULATOR</p>
+                <p id="displayScreen"></p>
             </div>
             <div class="mainGroup">
                 <div class="digitalGroup">
                     <!-- One Group-->
 
                     <div>
-                        <button id="btn" value="9">9</button>
-                        <button id="btn" value="8">8</button>
-                        <button id="btn" value="7">7</button>
+                        <button id="btn" data-value="9">9</button>
+                        <button id="btn" data-value="8">8</button>
+                        <button id="btn" data-value="7">7</button>
                     </div>
                     <!-- Two Group-->
                     <div>
-                        <button id="btn" value="6">6</button>
-                        <button id="btn" value="5">5</button>
-                        <button id="btn" value="4">4</button>
+                        <button id="btn" data-value="6">6</button>
+                        <button id="btn" data-value="5">5</button>
+                        <button id="btn" data-value="4">4</button>
                     </div>
                     <!-- Three Group-->
                     <div>
-                        <button id="btn" value="3">3</button>
-                        <button id="btn" value="2">2</button>
-                        <button id="btn" value="1">1</button>
+                        <button id="btn" data-value="3">3</button>
+                        <button id="btn" data-value="2">2</button>
+                        <button id="btn" data-value="1">1</button>
                     </div>
                     <!-- Four Group-->
                     <div>
-                        <button class="zeroBtn" id="btn" value=".">0</button>
-                        <button id="btn" value=".">.</button>
+                        <button id="btn" class="zeroBtn" data-value="0">0</button>
+                        <button id="btn" data-value=".">.</button>
                     </div>
-                    <button id="actionEquals">&equals;</button>
+                    <button id="actionEquals" value="calculateNow">&equals;</button>
                 </div>
                 <div class="operatorGroup">
-                    <button id="actionClear">C</button>
-                    <button id="actionDivide">&divide;</button>
-                    <button id="actionTimes">&times;</button>
-                    <button id="actionMinus">&minus;</button>
-                    <button id="actionPlus">&plus;</button>
+                    <button class="actionClear" id="actionOperator">C</button>
+                    <button id="actionOperator" value="divide">&divide;</button>
+                    <button id="actionOperator" value="times">&times;</button>
+                    <button id="actionOperator" value="minus">&minus;</button>
+                    <button id="actionOperator" value="plus">&plus;</button>
                 </div>
             </div>
         </div>

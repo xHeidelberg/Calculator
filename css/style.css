@@ -26,12 +26,12 @@ button:hover {
     background-color: rgb(205, 201, 201);
 }
 
-#actionClear {
+.actionClear {
     background-color: brown;
     color: white;
 }
 
-#actionClear:hover {
+.actionClear:hover {
     background-color: chocolate;
 }
 
